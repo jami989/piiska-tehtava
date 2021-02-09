@@ -1,0 +1,38 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    margin-top: 0;
+    font-family: Arial, serif;
+        background-color: #838181;
+}
+
+#header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #5E5D5D;
+}
+
+.navBar > a{
+    margin: 18px;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#xamkLogo{
+max-height: 50px;
+vertical-align: middle;
+}
+
+#signButton{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+}

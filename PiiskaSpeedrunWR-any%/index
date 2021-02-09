@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <!-- head tägin sisällä esitellyt asiat ovat viestejä selaimelle; mitä kaikkea tiedostoon on linkitetty, minkä tyyppisestä tiedostosta on kyse. -->
+
+    <title>Sivun otsikko</title>
+  </head>
+  <body>
+    <!-- Body tägien sisälle rakennetaan kaikki mitä halutaan näyttää käyttäjälle. -->
+    <h1></h1>
+    <p></p>
+  </body>
+</html>
