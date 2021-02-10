@@ -36,3 +36,127 @@ vertical-align: middle;
     font-size: 20px;
     border: none;
 }
+#LOGWrapper{
+    height: 100%;
+    width: 100%;
+}
+
+
+#LeftLogWrapper{
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+#RightLogWrapper{
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+
+
+#LeftLogContent{
+    height: 75%;
+    min-height: 400px;
+    width: 90%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #5159A4;
+}
+#RightLogContent{
+    height: 75%;
+    min-height: 400px;
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #5159A4;
+}
+
+
+.LogHeader{
+    width: 220px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    
+}
+#leftLogBox{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 100px;
+    
+    /* NOT SURE IF THIS LeftLogBox SHITE EVEN WORKS BUT WHATEVER*/
+}
+#LogProject{
+    width: 100px;
+    height: 20px;
+    border: solid;
+    margin: 10px;
+    margin-left: 17px;
+    font-weight: bold;
+    
+}
+#LogDropDownMenu{
+    width: 200px;
+    margin: 5px;
+    
+}
+.LogInformationBoxes{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: solid;
+    font-weight: bold;
+}
+.hai{
+    width: auto;
+    height: 20px;
+    margin-top: 5px;
+    float: left;
+}
+.LogInputBoxes{
+    float: inherit;
+    width: 200px;
+    height: 20px;
+    margin: 2px;
+    background-color: #5159A4;
+    font-size: 16px;
+    border: none;
+}
+::placeholder{
+    color: black;
+}
+#LogDescriptionBox{
+    width: 99%;
+    height: 100px;
+    margin: auto;
+    background-color: #5159A4;
+    border: none;
+    padding: 2px;
+}
+#LogSubmitButton{
+    border: 0;
+    font-family: arial;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    float: right;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #17A8F6;
+}
+#LogTable{
+    width: 99%;
+    margin: auto;
+}
+.LogCell{
+    width: 30%;
+    height: 100px;
+}
+td{
+    border: 1px solid black;
+}
