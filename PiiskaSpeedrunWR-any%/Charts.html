@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <meta charset="utf-8">
+        <meta name="author" content="Iida, Jami, Kai, Viivi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Google chart scripts-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        
+        <!--Google bar chart script-->
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['', ''],
+          ['student 1.', 20,],
+          ['student 2.', 15],
+          ['student 3.', 11],
+            ['student 4.', 11],
+            ['student 5.', 11],
+            ['student 6.', 9],
+            ['student 7.', 8],
+            ['student 8.', 6],
+            ['student 9.', 5],
+            ['student 10.', 5],
+            ['student you', 3]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Leader Boards',
+            subtitle: 'Hours required for learderboard placement: 2',
+            }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    
+        <!--Google corechart chart script-->
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Pokt20sp', 'you'],
+          ['2004',  100, 9],
+          ['2005',  90, 5],
+          ['2006',  68, 9],
+          ['2007',  84, 2]
+        ]);
+
+        var options = {
+          title: 'Charts',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+    </head>
+    
+ 
+    <body>
+        <div id="header">
+	       <nav>
+		      <div class="navBar">
+                
+                    <a href="https://www.google.com">Projects</a>
+                
+                    <a href="https://www.google.com">Charts</a>
+                    
+                    <a href="https://www.google.com" id="headerIMG">
+                    
+                        <img id="xamkLogo" src="IMG/logo_header.png" alt="XAMK">
+                        
+                    </a>
+            
+                    <a href="https://www.google.com">Log</a>
+
+                    <a href="https://www.google.com">Notifications</a>
+                
+                    <a href="https://www.google.com">Profile</a>
+                    
+                    <button id="signButton" type="submit">Sign out</button>
+                
+            </div>
+	       </nav>
+        </div>
+        
+        <div id="Charts-left">
+            <div id="columnchart_material"></div>
+        </div>
+        <div id="Charts-right">
+            <div id="curve_chart"></div>
+        </div>
+    </body> 
+</html>

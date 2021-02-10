@@ -36,3 +36,34 @@ vertical-align: middle;
     font-size: 20px;
     border: none;
 }
+
+#Charts-left{
+    background-color: #5159A4;
+    height: 83%;
+    width: 49%;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+#Charts-right{
+    background-color: #5159A4;
+    height: 83%;
+    width: 49%;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+#columnchart_material{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+#curve_chart{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
