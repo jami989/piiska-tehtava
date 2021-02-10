@@ -32,7 +32,113 @@ vertical-align: middle;
 
 #signButton{
     background-color: red;
-    color: white;
+    color: #F5F5F7;
     font-size: 20px;
     border: none;
 }
+
+#ProfileSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#ProfileInfo {
+    background-color: #5159A4;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+#ProfileInfo >p{
+    color: #F5F5F7;
+    font-size: 20px;
+    margin: 2px;
+    margin-left: 20px;
+}
+
+#profilePicture {
+    padding: 10px;
+    display:inline-block;
+}
+
+#achievementLayer {
+    background-color: #5159A4;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    color: #CDBD53;
+}
+
+#achievementLayer >p{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+#changeProfileButton {
+    background-color: #17A8F6;
+    color: #F5F5F7;
+    border: none;
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 85px 85px 85px 85px 85px 85px 85px 85px 100px 100px;
+    background-color: #5159A4;
+    padding: 0px;
+    margin: 20px;
+    margin-top: 0px;
+
+}
+.grid-item {
+    background-color: #5159A4;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+#ProfileStatistics {
+
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+
+    background-color: #5159A4;
+}
+
+#ProfileStatistics p{
+
+    margin: 5px;
+    font-size: 32px;
+    background-color: #5159A4;
+}
+
+.piechart { 
+
+    display: block;  
+    width: 200px; 
+    height: 200px;
+
+    margin-left: 20px;
+    border-radius: 50%;
+    background-image: conic-gradient( 
+    #17A8F6 120deg, #5E5D5E 0);
+    float:left;
+}
+
+#piechartInfo p{
+    padding-left: 300px;
+    font-size: 27px;
+    margin: 0px;
+    padding-top: 5px;
+}
+  
+
+.bigger { font-size:250%; }
+
+.larger { font-size:155%; }
